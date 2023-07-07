@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bluebird Books</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#best-selling">Best Selling</a></li>
+      <li><a href="#recommendations">Recommendations</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Intro Section -->
+  <section id="intro">
+    <h1 style="color: rgb(255, 106, 0);">Welcome to My Book Shop</h1>
+    <p style="color: rgb(255, 208, 0);">Discover a world of amazing books and indulge in the joy of reading.</p>
+    <a href="#best-selling">Explore Best Sellers</a>
+  </section>
+
+  <!-- Best Selling Books -->
+  <section id="best-selling">
+    <h2 style="color: rgb(0, 255, 238);">Best Selling Books</h2>
+    <div class="book-list">
+      <!-- Add your best selling book entries here -->
+      <div class="book-item">
+        <img src="Atomic Habits.jpg" alt="Atomic Habits">
+        <h3>Atomic Habits</h3>
+        <p>James Clear</p>
+        <p>Price: Rs 529</p>
+      </div>
+      <div class="book-item">
+        <img src="The Hidden Hindu.jpg" alt="The Hidden Hindu">
+        <h3>The Hidden Hindu</h3>
+        <p>Akshat Gupta</p>
+        <p>Price: Rs 170</p>
+      </div>
+      <!-- Add more book items as needed -->
+    </div>
+  </section>
+
+  <!-- Our Recommendations Section -->
+  <section id="recommendations">
+    <h2>Our Recommendations</h2>
+    <div class="book-list">
+      <!-- Add your recommended book entries here -->
+      <div class="book-item">
+        <img src="The Power of Your Subconscious Mind.jpg" alt="The Power of Your Subconscious Mind">
+        <h3>The Power of Your Subconscious Mind</h3>
+        <p>Joseph Murphy</p>
+        <p>Price: Rs 115.00</p>
+      </div>
+      <div class="book-item">
+        <img src="The Pshycology of Money.jpg" alt="The Pshycology of Money">
+        <h3>The Pshycology of Money</h3>
+        <p>Morgan Housel</p>
+        <p>Price: Rs 279</p>
+      </div>
+      <!-- Add more book items as needed -->
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews">
+    <h2>Reviews</h2>
+    <div class="review-list">
+      <!-- Add your customer reviews here -->
+      <div class="review-item">
+        <h3>Dr Rangan Chatterjee</h3>
+        <p>"It's an absolutely fabulous bookshop having both bestsellers and old books"</p>
+      </div>
+      <div class="review-item">
+        <h3>Dr M.B.Dey</h3>
+        <p>"The bookshop contains outstanding books unparalleled in genre diversification and other categories "</p>
+      </div>  
+    </div>
+    <h2>Feedback</h2>
+    <form action="">
+      <fieldset>
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="name" id="name" placeholder="Enter your name" required />
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+          <div class="form-control">
+            <label for="review">Review</label>
+            <textarea
+              id="review"
+              cols="30"
+              rows="10"
+              placeholder="Enter your review"
+              required
+            ></textarea>
+          </div>
+          <input type="submit" value="Send" class="submit-btn" />
+        </fieldset>
+    </form>
+  </section>
+  <section id="lab_social_icon_footer">
+    <!-- Include Font Awesome Stylesheet in Header -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <div class="container">
+            <div class="text-center center-block">
+                  <a href="#" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                  <a href="#" target="_blank"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                  <a href="#" target="_blank"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                  <a href="#" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
+    </div>
+    </section>
+    <button id="myBtn"><a href="#top" style="color: yellow">Top</a></button>
+</body>
+</html>
+
